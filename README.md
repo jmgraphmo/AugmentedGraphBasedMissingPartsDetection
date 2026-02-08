@@ -1,6 +1,29 @@
 # AugmentedGraphBasedMissingPartsDetection
 This repository contains the adapted code for "Exploring Data Augmentation in Computer Vision for Missing-Object Detection with GNN"
 
+The project is tested in a clean conda environment (02/08/26) and the following commands were used to make it work in 
+Visual Studio Code. 
+
+```text
+
+conda create -n thesisjm python=3.11 -y
+conda activate thesisjm
+
+conda install -y -c pytorch pytorch torchvision torchaudio cpuonly
+conda install -y -c conda-forge numpy pillow pyyaml tqdm
+conda install -y -c conda-forge opencv
+conda install -y -c conda-forge psutil tabulate scikit-learn
+
+pip install nvidia-ml-py3 torch-geometric
+
+conda install -y -c conda-forge matplotlib
+
+pip install ultralytics
+
+```
+
+
+
 after cloning the structure should look like this
 
 ```text
