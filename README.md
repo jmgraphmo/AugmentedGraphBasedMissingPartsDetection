@@ -3,6 +3,8 @@ This repository contains the adapted code for "Exploring Data Augmentation in Co
 
 after cloning the structure should look like this
 
+```text
+
 AugmentedGraphBasedMissingPartsDetection/
 ├── data/
 │   ├── processed/
@@ -20,6 +22,8 @@ AugmentedGraphBasedMissingPartsDetection/
 │   ├── vlm/
 │   └── yolo/
 
+```
+
 
 first download the delftbikes dataset from:
 
@@ -34,6 +38,8 @@ extract the content into data.
 - 
 
 new structure:
+
+```text
 
 AugmentedGraphBasedMissingPartsDetection/
 ├── data/
@@ -53,10 +59,15 @@ AugmentedGraphBasedMissingPartsDetection/
 │   ├── vlm/
 │   └── yolo/
 
+```
+
 
 create a copy of the images folder in the same directory called images_vlm
 
 new structure:
+
+```text
+
 
 AugmentedGraphBasedMissingPartsDetection/
 ├── data/
@@ -76,6 +87,8 @@ AugmentedGraphBasedMissingPartsDetection/
 │   ├── graph_rcnn/
 │   ├── vlm/
 │   └── yolo/
+
+```
 
 
 #preprocessing 
