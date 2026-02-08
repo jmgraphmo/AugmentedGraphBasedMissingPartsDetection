@@ -114,7 +114,7 @@ AugmentedGraphBasedMissingPartsDetection/
 ```
 
 
-#preprocessing 
+#######             preprocessing                    #######       
 
 run python/data_cleaning/data_processing.py
 
@@ -124,25 +124,21 @@ run python/data_cleaning/json_to_yolo.py
 
 it should create a folder yolo_format in data
 
-#augmentation
+#######             augmentation               #######       
 
-python/graph_rcnn
-python/yolo
-
-contains the models with and without augmentation which can be run now. 
+python/graph_rcnn and python/yolo contain the models with and without augmentation which can be run now. 
 
 the exception is : graph_rcnn_augmented_zoom_shift_vlm.py
 
 
 
-#synth data:
+#######             generated data               #######       
 
 vlm/mask_generation.py can be run to create the masks required for the image generation which will be found in data/masks
 
 vlm/image_generation.py can generate the images which will be found in data/generatedimages. An api key for open ai is required .
 
-the other option is to extract the zip inside. 
-
+the other option is to extract the zip inside data/generateimages which contains the images used for the thesis. 
 
 the generated images should be pasted into images_vlm . replace all existing images. 
 
