@@ -4,6 +4,8 @@ This repository contains the adapted code for "Exploring Data Augmentation in Co
 The project is tested in a clean conda environment (02/08/26) and the following commands were used to make it work in 
 Visual Studio Code. 
 
+
+
 ```text
 
 conda create -n thesisjm python=3.11 -y
@@ -20,9 +22,10 @@ conda install -y -c conda-forge matplotlib
 
 pip install ultralytics
 
+pip install openai
 ```
 
-
+All programs have run from the project root !
 
 after cloning the structure should look like this
 
