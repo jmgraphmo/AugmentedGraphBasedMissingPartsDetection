@@ -10,7 +10,7 @@ from tqdm import tqdm
 json_file = "data/raw/train_annotations.json"
 image_directory = "data/images"
 output_json_file = "data/raw/cleaned_annotations.json"
-final_output_json = "data/processed/final_annotations.json"
+final_output_json = "data/processed/final_annotations_without_occluded.json"
 
 with open(json_file, "r") as f:
     annotations = json.load(f)
